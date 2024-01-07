@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,300&family=Roboto+Condensed:wght@500&display=swap');
+
+* {
+    font-family: Poppins, Arial;
+}
+
+canvas {
+    border: solid 2px black;
+    background-color: rgb(49, 49, 49);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    background-color: rgb(22, 19, 19);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.reset-btn {
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.dificulty-btns {
+    margin-top: 10px;
+
+    button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+.best-score {
+    color: aliceblue;
+}
